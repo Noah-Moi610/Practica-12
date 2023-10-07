@@ -11,7 +11,7 @@ title: Bienvenido a mi Blog
 
 {% for libro in collections.libros %}
 
-- [{{libro.data.title}}]({{ libro.url }})
+- [{{libro.data.title}}]({{ libro.url | url }})
 
 {% endfor %}
 
@@ -19,7 +19,7 @@ title: Bienvenido a mi Blog
 
 {% for pelicula in collections.peliculas %}
 
-- [{{pelicula.data.title}}]({{ pelicula.url }})
+- [{{pelicula.data.title}}]({{ pelicula.url | url }})
 
 {% endfor %}
 

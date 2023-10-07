@@ -5,6 +5,6 @@ title: Contacto
 
 # {{title}}
 
-[Regresar al Home](/)
+[Regresar al Home]({{'/' | url}})
 
 Contenido de la página de contacto

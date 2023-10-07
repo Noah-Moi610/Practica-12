@@ -5,8 +5,8 @@ title: Acerca
 
 # {{title}}
 
-![Ser Feliz](/statics/img/ser-feliz.jpg)
+![Ser Feliz]({{ '/statics/img/ser-feliz.jpg' | url }})
 
-[Regresar al Home](/)
+[Regresar al Home]({{ '/' | url }})
 
 Contenido de la página de acerca
