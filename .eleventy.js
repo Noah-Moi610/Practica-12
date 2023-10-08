@@ -1,6 +1,6 @@
 module.exports = function (eleventyConfig) {
   // Copia los archivos estáticos (como CSS y JavaScript) a la carpeta de salida
-  eleventyConfig.addPassthroughCopy("src/statics");
+  eleventyConfig.addPassthroughCopy("src/static");
 
   // Return your Object options:
   return {
