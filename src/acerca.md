@@ -5,7 +5,7 @@ title: Acerca
 
 # {{title}}
 
-![Ser Feliz]({{ '/statics/img/ser-feliz.jpg' | url }})
+![Ser Feliz]({{ '/static/img/ser-feliz.jpg' | url }})
 
 [Regresar al Home]({{ '/' | url }})
 
